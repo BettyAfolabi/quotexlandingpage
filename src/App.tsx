@@ -12,12 +12,13 @@ function App() {
       sx={{
         backgroundImage: "url('/Homebg.png')",
         backgroundSize: "center",
+        
       }}
     >
       <Stack
         sx={{
           fontFamily: "Raleway, sans-serif",
-          marginX: "1.5rem",
+          paddingX: "1.5rem",
         }}
       >
         <Home />

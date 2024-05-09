@@ -260,7 +260,9 @@ function Features() {
                 fontSize: "20px",
                 fontWeight: "500",
                 lineHeight: "38px",
-                textAlign: "start",
+                "@media (max-width: 768px)": {
+                  justifyContent: "start",
+                },
               }}
             >
               Embrace the new era of personal empowerment with NFID, the most
